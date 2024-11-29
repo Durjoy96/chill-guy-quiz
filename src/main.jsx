@@ -6,6 +6,7 @@ import Root from "./routes/Root";
 import Error from "./pages/Error";
 import Quiz from "./pages/Quiz";
 import Home from "./pages/Home";
+import Provider from "./provider/Provider";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       {
         path: "/quiz",
         element: <Quiz></Quiz>,
+        loader: () => fetch("/quizzes.json"),
       },
     ],
   },
@@ -27,6 +29,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <Provider>
+      <RouterProvider router={router}></RouterProvider>
+    </Provider>
   </StrictMode>
 );
