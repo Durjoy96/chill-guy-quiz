@@ -7,7 +7,7 @@ const Home = () => {
       <div className="h-96">
         <img className="h-full" src={ChillGuy} alt="Chill Guy" />
       </div>
-      <Link to="../quiz" className="px-8 py-2 bg-violet-500 rounded-full">
+      <Link to={`../quiz/1`} className="px-8 py-2 bg-violet-500 rounded-full">
         Play Quiz
       </Link>
     </div>

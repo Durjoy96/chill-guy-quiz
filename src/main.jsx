@@ -22,6 +22,7 @@ const router = createBrowserRouter([
         path: "/quiz",
         element: <Quiz></Quiz>,
         loader: () => fetch("/quizzes.json"),
+        children: [{ path: ":quizID/option/:id", element: <Quiz></Quiz> }],
       },
     ],
   },
