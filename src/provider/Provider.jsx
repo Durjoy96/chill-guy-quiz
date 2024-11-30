@@ -4,6 +4,11 @@ export const contextProvider = createContext();
 
 const Provider = ({ children }) => {
   const [quizzesId, setQuizzesId] = useState([]);
+  const [points, setPoints] = useState(0);
+
+  const sumPoints = (newPoint) => {
+    setPoints(points + newPoint);
+  };
 
   useEffect(() => {
     const arr = [];
@@ -20,6 +25,8 @@ const Provider = ({ children }) => {
 
   const info = {
     quizzesId,
+    sumPoints,
+    points,
   };
   return (
     <>

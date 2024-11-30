@@ -7,6 +7,8 @@ import Error from "./pages/Error";
 import Quiz from "./pages/Quiz";
 import Home from "./pages/Home";
 import Provider from "./provider/Provider";
+import { Toaster } from "react-hot-toast";
+import Result from "./pages/Result";
 
 const router = createBrowserRouter([
   {
@@ -22,8 +24,8 @@ const router = createBrowserRouter([
         path: "/quiz",
         element: <Quiz></Quiz>,
         loader: () => fetch("/quizzes.json"),
-        children: [{ path: ":quizID/option/:id", element: <Quiz></Quiz> }],
       },
+      { path: "quiz/result", element: <Result></Result> },
     ],
   },
 ]);
@@ -32,6 +34,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider>
       <RouterProvider router={router}></RouterProvider>
+      <Toaster toastOptions={{ duration: 2000 }} />
     </Provider>
   </StrictMode>
 );
