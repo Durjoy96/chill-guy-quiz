@@ -26,6 +26,7 @@ const Provider = ({ children }) => {
   const info = {
     quizzesId,
     sumPoints,
+    setPoints,
     points,
   };
   return (

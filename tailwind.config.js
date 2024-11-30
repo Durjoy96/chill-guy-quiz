@@ -10,6 +10,7 @@ export default {
         "base-content": "#30313d",
         "base-content-secondary": "#5c5b61",
         primary: "rgb(139 92 246)",
+        primary2: "rgb(139 92 246)",
         "primary-content": "#ffffff",
         secondary: "rgb(167 139 250)",
         "secondary-content": "#ffffff",
