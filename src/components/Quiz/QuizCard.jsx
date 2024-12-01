@@ -24,7 +24,7 @@ const QuizCard = ({ currentQuizId, data, setGetPoints, index }) => {
 
   return (
     <>
-      <div className="mt-12">
+      <div className="pt-12">
         <h2 className="text-xl font-medium text-base-content-secondary">
           {index + 1}. {prompt}
         </h2>

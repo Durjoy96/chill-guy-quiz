@@ -1,7 +1,6 @@
 [
   {
     "id": 1,
-    "title": "The Morning Rush",
     "prompt": "You wake up late for work. The clock says 8:45 AM, and your meeting starts at 9. What do you do?",
     "choices": [
       {
@@ -24,136 +23,132 @@
   },
   {
     "id": 2,
-    "title": "The Forgotten Birthday",
-    "prompt": "Your best friend reminds you it\u2019s their birthday, and you completely forgot to get them a gift. What\u2019s your move?",
+    "prompt": "You need to log in to a crucial account, but you’ve forgotten the password. What do you do?",
     "choices": [
       {
-        "text": "Show up with nothing but a big smile and say: 'Memories are priceless, right?'",
-        "points": 25
+        "text": "Click 'Forgot Password' and set a new one without stress.",
+        "points": 20
       },
       {
-        "text": "Apologize profusely and promise to plan something special next weekend.",
-        "points": 10
-      },
-      {
-        "text": "Quickly order something online and say: 'It\u2019s on its way\u2014just like good surprises!'",
+        "text": "Try all your usual passwords and hope for the best.",
         "points": 15
       },
       {
-        "text": "Tell your friend: 'I thought we were past material stuff\u2014our friendship is the real gift.'",
-        "points": 20
+        "text": "Laugh at yourself, set a new password, and promise to write it down this time.",
+        "points": 25
+      },
+      {
+        "text": "Curse the system for making life difficult.",
+        "points": 10
       }
     ]
   },
   {
     "id": 3,
-    "title": "The Spicy Office Email",
-    "prompt": "You accidentally hit 'Reply All' on an email meant for a close colleague, and now the whole office knows your thoughts about Karen\u2019s cooking at the potluck. What do you do?",
+    "prompt": "You’re ready to leave, but you can’t find your keys anywhere. What’s your first reaction?",
     "choices": [
       {
-        "text": "Send a follow-up email clarifying it was a joke.",
-        "points": 10
+        "text": "Calmly retrace your steps to find them.",
+        "points": 20
       },
       {
-        "text": "Own it and say: 'Honesty is the best policy, folks!'",
+        "text": "Sit down and take a moment to think before searching.",
         "points": 25
       },
       {
-        "text": "Say nothing and pretend it never happened.",
-        "points": 15
+        "text": "Tear the house apart frantically looking for them.",
+        "points": 10
       },
       {
-        "text": "Apologize directly to Karen in person and offer to bring cookies to the next potluck.",
-        "points": 20
+        "text": "Call someone and vent about your bad luck.",
+        "points": 15
       }
     ]
   },
   {
     "id": 4,
-    "title": "The Traffic Jam",
-    "prompt": "You\u2019re stuck in a bumper-to-bumper traffic jam, and your phone battery is at 2%. What do you do?",
+    "prompt": "You’re at a café to work or relax, but the Wi-Fi isn’t working. What’s your reaction?",
     "choices": [
       {
-        "text": "Use your last 2% of battery to call someone you enjoy talking to.",
-        "points": 20
+        "text": "Use mobile data and carry on.",
+        "points": 15
       },
       {
-        "text": "Honk and complain loudly to yourself.",
-        "points": 10
-      },
-      {
-        "text": "Get out of the car and start chatting with other drivers.",
+        "text": "Decide it’s a sign to take a break and enjoy the ambiance.",
         "points": 25
       },
       {
-        "text": "Turn on some calming music and wait it out.",
-        "points": 15
+        "text": "Complain to the staff and demand a solution.",
+        "points": 10
+      },
+      {
+        "text": "Use the opportunity to write, sketch, or plan offline.",
+        "points": 20
       }
     ]
   },
   {
     "id": 5,
-    "title": "The Missing Socks",
-    "prompt": "You\u2019re getting ready for a date, but you can\u2019t find a matching pair of socks. The clock is ticking. What do you do?",
+    "prompt": "You’re about to start working on something important, and your device insists on installing a software update. What do you do?",
     "choices": [
       {
-        "text": "Tear apart your room in a desperate search.",
-        "points": 10
+        "text": "Use the waiting time to stretch or grab a drink.",
+        "points": 25
       },
       {
-        "text": "Go sockless and rock a quirky, carefree vibe.",
-        "points": 15
-      },
-      {
-        "text": "Wear mismatched socks with confidence.",
+        "text": "Check your phone while it updates.",
         "points": 20
       },
       {
-        "text": "Text your date jokingly: 'My socks are protesting\u2014running a little late!'",
-        "points": 25
+        "text": "Stare at the screen impatiently until it’s done.",
+        "points": 15
+      },
+      {
+        "text": "Feel annoyed and restart the device, hoping to skip the update.",
+        "points": 10
       }
     ]
   },
   {
     "id": 6,
-    "prompt": "You’re at a coffee shop, and the barista messes up your complicated order. They look swamped. What do you do?",
+    "prompt": "You order your favorite coffee, but the barista gives you the wrong drink. What’s your response?",
     "choices": [
       {
-        "text": "Drink the wrong coffee and convince yourself it’s fine.",
-        "points": 15
-      },
-      {
-        "text": "Politely ask for a remake, but feel guilty about adding to their workload.",
-        "points": 10
-      },
-      {
-        "text": "Hand them a tip and joke: 'Next time, surprise me with your masterpiece!'",
+        "text": "Smile and drink it.",
         "points": 25
       },
       {
-        "text": "Take a sip, smile, and say: 'This is great! You’ve invented a new favorite for me.'",
+        "text": "Politely inform the barista and ask for a fix.",
         "points": 20
+      },
+      {
+        "text": "Roll your eyes but keep drinking without saying anything.",
+        "points": 15
+      },
+      {
+        "text": "Get annoyed and consider switching to a new café.",
+        "points": 10
       }
     ]
   },
   {
     "id": 7,
-    "prompt": "You’re in a group project, and one team member isn’t pulling their weight. The deadline is tomorrow. What’s your move?",
+    "prompt": "In a group project, one member isn’t doing their share of the work. What’s your approach?",
     "choices": [
       {
-        "text": "Submit the work as-is and say: 'Sometimes less is more, right?'",
-        "points": 25
-      },
-      {
-        "text": "Call them out in the group chat, hoping they step up.",
-        "points": 10
-      },
-      {
-        "text": "Rally the group with: 'Let’s finish this together—we’ve got this!'",
+        "text": "Politely ask them to contribute more.",
         "points": 20
       },
       {
-        "text": "Cover their tasks yourself, then jokingly ask for extra credit.",
+        "text": "Take it lightly and do the extra work yourself.",
+        "points": 25
+      },
+      {
+        "text": "Get frustrated and call them out in the group.",
+        "points": 10
+      },
+      {
+        "text": "Complain about them to someone else in the group.",
         "points": 15
       }
     ]
@@ -163,64 +158,181 @@
     "prompt": "You order a trendy jacket online, but it arrives two sizes too small. You needed it for an event tomorrow. What do you do?",
     "choices": [
       {
-        "text": "Post online: 'Who needs jackets anyway? Staying cool is the real trend.'",
+        "text": "Laugh it off, wear it as an accessory and own the look",
         "points": 25
       },
       {
-        "text": "Wear something else and return the jacket later.",
-        "points": 15
+        "text": "Head out to a local store and buy a replacement jacket that fits.",
+        "points": 20
       },
       {
-        "text": "Try squeezing into it and pray no one notices.",
+        "text": "Stress about it, but still try to stretch it out or make it work somehow.",
         "points": 10
       },
       {
-        "text": "Layer it as an accessory and say: 'It’s a fashion statement!'",
-        "points": 20
+        "text": "Borrow a jacket from a friend and promise yourself to return the small one later.",
+        "points": 15
       }
     ]
   },
   {
     "id": 9,
-    "prompt": "You’re at the gym, and you accidentally drop your water bottle during a yoga class. It rolls across the floor, interrupting everyone. What do you do?",
+    "prompt": "You go to the gym, but every machine you want to use is taken. What’s your reaction?",
     "choices": [
       {
-        "text": "Turn it into a zen moment: 'The bottle has found its own flow—like we should!'",
-        "points": 25
-      },
-      {
-        "text": "Laugh and say: 'Guess my bottle needed a workout too!'",
+        "text": "Find a quiet corner to stretch or do bodyweight exercises.",
         "points": 20
       },
       {
-        "text": "Wait until the session ends, then quietly retrieve it.",
+        "text": "Wait patiently for a machine to free up.",
         "points": 15
       },
       {
-        "text": "Apologize profusely and scramble to pick it up.",
+        "text": "Decide to skip your workout and grab a smoothie instead.",
+        "points": 25
+      },
+      {
+        "text": "Get annoyed and leave after a few minutes.",
         "points": 10
       }
     ]
   },
   {
     "id": 10,
-    "prompt": "Your neighbor knocks on your door, complaining about noise from your weekend party. What do you do?",
+    "prompt": "Your alarm rings in the morning, but you still feel sleepy. What do you do?",
     "choices": [
       {
-        "text": "Say: 'Thanks for letting me know—good neighbors keep it real!'",
+        "text": "Hit snooze and curl up for 'just 5 more minutes.'",
         "points": 20
       },
       {
-        "text": "Apologize sincerely and promise to keep it down next time.",
-        "points": 10
+        "text": "Turn it off, decide today is your cheat day, and go back to sleep.",
+        "points": 25
       },
       {
-        "text": "Invite them to join the next party as a peace offering.",
+        "text": "Groan but get up anyway, knowing you’ll thank yourself later.",
         "points": 15
       },
       {
-        "text": "Joke: 'Well, at least now you know our playlist is awesome!'",
+        "text": "Wake up smiling, feeling ready to start the day.",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "prompt": "You’re caught in an unexpected rainstorm without an umbrella. You’re far from home. What do you do?",
+    "choices": [
+      {
+        "text": "Dash for the nearest shelter and wait it out.",
+        "points": 15
+      },
+      {
+        "text": "Walk in the rain and enjoy the moment",
         "points": 25
+      },
+      {
+        "text": "Call a rideshare or a friend for a quick rescue.",
+        "points": 20
+      },
+      {
+        "text": "Complain under your breath but keep moving forward.",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "prompt": "You’re watching your favorite show, and the video starts buffering every 5 seconds. What’s your reaction?",
+    "choices": [
+      {
+        "text": "Calmly switch to a lower resolution and keep watching.",
+        "points": 20
+      },
+      {
+        "text": "Use the time to grab snacks or take a quick break.",
+        "points": 25
+      },
+      {
+        "text": "Refresh the page repeatedly, muttering angrily.",
+        "points": 10
+      },
+      {
+        "text": "Decide to catch up on the show tomorrow and read a book instead.",
+        "points": 15
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "prompt": "You’re out, and your phone’s battery is at 1% with no charger in sight. What do you do?",
+    "choices": [
+      {
+        "text": "Quickly text anyone you need to and turn the phone off to save power.",
+        "points": 15
+      },
+      { "text": "Accept it and enjoy a tech-free moment.", "points": 25 },
+      {
+        "text": "Frantically ask people nearby if they have a charger.",
+        "points": 10
+      },
+      {
+        "text": "Mentally plan how to navigate the day without your phone.",
+        "points": 20
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "prompt": "Your favorite playlist ends, and an autoplayed song you can’t stand starts playing. What do you do?",
+    "choices": [
+      {
+        "text": "Skip the song immediately and find something better.",
+        "points": 10
+      },
+      { "text": "Let it play and laugh at how bad it is.", "points": 25 },
+      {
+        "text": "Change the playlist to one that matches your mood.",
+        "points": 15
+      },
+      {
+        "text": "Use it as a chance to reflect on why it’s not your vibe.",
+        "points": 20
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "prompt": "You’re in a grocery store line, and the person ahead of you starts arguing with the cashier. What do you do?",
+    "choices": [
+      { "text": "Wait patiently and scroll through your phone.", "points": 20 },
+      { "text": "Step into another line and move on.", "points": 15 },
+      {
+        "text": "Take a deep breath and remind yourself this isn’t your problem.",
+        "points": 25
+      },
+      { "text": "Huff loudly to show your frustration.", "points": 10 }
+    ]
+  },
+  {
+    "id": 16,
+    "prompt": "You accidentally leave your dinner in the oven too long, and it’s burnt. How do you handle it?",
+    "choices": [
+      {
+        "text": "Laugh it off and make something simple instead.",
+        "points": 20
+      },
+      {
+        "text": "Eat it anyway, convincing yourself it’s still edible.",
+        "points": 25
+      },
+      {
+        "text": "Grumble about your mistake but order takeout.",
+        "points": 15
+      },
+      {
+        "text": "Get frustrated and lose your appetite entirely.",
+        "points": 10
       }
     ]
   }
