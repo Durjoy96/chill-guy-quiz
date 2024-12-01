@@ -24,11 +24,11 @@ const QuizCard = ({ currentQuizId, data, setGetPoints, index }) => {
 
   return (
     <>
-      <div className="pt-12">
+      <div className="pt-8 md:pt-12">
         <h2 className="text-xl font-medium text-base-content-secondary">
           {index + 1}. {prompt}
         </h2>
-        <div className="mt-12 grid gap-6 grid-cols-1 md:grid-cols-2">
+        <div className="mt-8 grid gap-5 grid-cols-1 md:gap-6 md:grid-cols-2 md:mt-12">
           <button
             onClick={choice0}
             className={`btn btn-lg px-6 h-auto py-4 rounded-xl border border-primary bg-primary/5 text-base font-normal text-left hover:bg-primary hover:text-primary-content md:text-lg ${

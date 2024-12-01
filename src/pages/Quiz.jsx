@@ -42,8 +42,8 @@ const Quiz = () => {
     }
   };
   return (
-    <div className="max-w-screen-md mx-auto px-5">
-      <div className="flex justify-center pt-12">
+    <div className="max-w-screen-md mx-auto px-5 pb-8">
+      <div className="flex justify-center pt-8 md:pt-12">
         <ul className="steps">
           <li
             data-content={step1 ? "✓" : "1"}
