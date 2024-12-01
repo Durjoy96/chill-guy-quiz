@@ -33,7 +33,7 @@ const QuizCard = ({ currentQuizId, data, setGetPoints, index }) => {
             onClick={choice0}
             className={`btn btn-lg px-6 h-auto py-4 rounded-xl border border-primary bg-primary/5 text-base font-normal text-left hover:bg-primary hover:text-primary-content md:text-lg ${
               active === choices[0]
-                ? "bg-primary2 text-primary-content"
+                ? "!bg-primary text-primary-content"
                 : "bg-primary/5 text-base-content"
             }`}
           >
@@ -43,7 +43,7 @@ const QuizCard = ({ currentQuizId, data, setGetPoints, index }) => {
             onClick={choice1}
             className={`btn btn-lg px-6 h-auto py-4 rounded-xl border border-primary bg-primary/5 text-base font-normal text-left hover:bg-primary hover:text-primary-content md:text-lg ${
               active === choices[1]
-                ? "bg-primary2 text-primary-content"
+                ? "!bg-primary text-primary-content"
                 : "bg-primary/5 text-base-content"
             }`}
           >
@@ -53,7 +53,7 @@ const QuizCard = ({ currentQuizId, data, setGetPoints, index }) => {
             onClick={choice2}
             className={`btn btn-lg px-6 h-auto py-4 rounded-xl border border-primary bg-primary/5 text-base font-normal text-left hover:bg-primary hover:text-primary-content md:text-lg ${
               active === choices[2]
-                ? "bg-primary2 text-primary-content"
+                ? "!bg-primary text-primary-content"
                 : "bg-primary/5 text-base-content"
             }`}
           >
@@ -63,7 +63,7 @@ const QuizCard = ({ currentQuizId, data, setGetPoints, index }) => {
             onClick={choice3}
             className={`btn btn-lg px-6 h-auto py-4 rounded-xl border border-primary bg-primary/5 text-base font-normal text-left hover:bg-primary hover:text-primary-content md:text-lg ${
               active === choices[3]
-                ? "bg-primary2 text-primary-content"
+                ? "!bg-primary text-primary-content"
                 : "bg-primary/5 text-base-content"
             }`}
           >

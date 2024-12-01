@@ -10,7 +10,6 @@ export default {
         "base-content": "#30313d",
         "base-content-secondary": "#5c5b61",
         primary: "rgb(139 92 246)",
-        primary2: "rgb(139 92 246)",
         "primary-content": "#ffffff",
         secondary: "rgb(167 139 250)",
         "secondary-content": "#ffffff",
@@ -18,4 +17,17 @@ export default {
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "rgb(139 92 246)",
+          "primary-content": "#ffffff",
+          "base-100": "#ffffff",
+          "base-200": "#f8f9fd",
+          "base-300": "#dfe5eb",
+        },
+      },
+    ],
+  },
 };
