@@ -6,9 +6,12 @@ import toast from "react-hot-toast";
 
 const Quiz = () => {
   const data = useLoaderData();
-  const { quizzesId, sumPoints } = useContext(contextProvider);
+  const { quizzesId, sumPoints, setPoints } = useContext(contextProvider);
 
   const [index, setIndex] = useState(0);
+  if (index === 0) {
+    setPoints(0); //reset the points every time whenever users come back to the quiz page
+  }
   const [currentQuizId, setCurrentQuizId] = useState(quizzesId[index]);
   const [getPoints, setGetPoints] = useState(null);
   const [step1, setStep1] = useState(false);
