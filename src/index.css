@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-a.active {
-  background-color: rgb(139 92 246);
-  color: #ffffff;
+.birds {
+  position: absolute;
+  animation: birdsAnimation 32s infinite linear;
+}
+
+@keyframes birdsAnimation {
+  0% {
+    right: -15%;
+  }
+
+  100% {
+    right: 200%;
+  }
 }
